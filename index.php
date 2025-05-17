@@ -7,10 +7,16 @@
 </head>
 <body>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
+<form action="xcdvxdsffsdkldjfh.php" method="post" enctype="multipart/form-data">
   Select image to upload:
-  <input type="file" name="fileToUpload" id="fileToUpload">
-  <input type="submit" value="Upload Image" name="submit">
+
+  <input type="text" required>
+
+
+  <input type="number" min="1" max="5" required>
+
+  <!-- <input type="file" name="fileToUpload" id="fileToUpload"> -->
+  <input type="submit" value="Submit" name="submit">
 </form>
 
 
